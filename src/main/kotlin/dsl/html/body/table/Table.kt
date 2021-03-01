@@ -9,5 +9,4 @@ class Table : BodyTag("table") {
     fun tr(init: TR.() -> Unit) = initTag(TR(), init)
     fun caption(init: Caption.() -> Unit) = initTag(Caption(), init)
     fun colgroup(init: ColGroup.() -> Unit) = initTag(ColGroup(), init)
-
 }
